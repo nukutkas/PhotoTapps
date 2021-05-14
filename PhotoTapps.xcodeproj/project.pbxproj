@@ -13,6 +13,8 @@
 		E52D672024E44A5500B6CDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52D671F24E44A5500B6CDEA /* Assets.xcassets */; };
 		E52D672324E44A5500B6CDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52D672124E44A5500B6CDEA /* LaunchScreen.storyboard */; };
 		E52D672B24E44B0300B6CDEA /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52D672A24E44B0300B6CDEA /* PhotosCollectionViewController.swift */; };
+		E5998179264E5733001447F7 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5998177264E5733001447F7 /* Screenshot01.png */; };
+		E599817A264E5733001447F7 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5998178264E5733001447F7 /* Screenshot02.png */; };
 		E5DE199C24E71A1B00DC1BF6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE199B24E71A1B00DC1BF6 /* PhotoCell.swift */; };
 		E5DE199E24E72F6000DC1BF6 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE199D24E72F6000DC1BF6 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		E52D672224E44A5500B6CDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E52D672424E44A5500B6CDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52D672A24E44B0300B6CDEA /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		E5998177264E5733001447F7 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E5998178264E5733001447F7 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		E5DE199B24E71A1B00DC1BF6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		E5DE199D24E72F6000DC1BF6 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +64,7 @@
 		E52D671524E44A5400B6CDEA /* PhotoTapps */ = {
 			isa = PBXGroup;
 			children = (
+				E5998176264E5608001447F7 /* Screenshots */,
 				E52D671624E44A5400B6CDEA /* AppDelegate.swift */,
 				E52D671824E44A5400B6CDEA /* SceneDelegate.swift */,
 				E52D671C24E44A5400B6CDEA /* Main.storyboard */,
@@ -71,6 +76,15 @@
 				E52D672424E44A5500B6CDEA /* Info.plist */,
 			);
 			path = PhotoTapps;
+			sourceTree = "<group>";
+		};
+		E5998176264E5608001447F7 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E5998177264E5733001447F7 /* Screenshot01.png */,
+				E5998178264E5733001447F7 /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +147,8 @@
 			files = (
 				E52D672324E44A5500B6CDEA /* LaunchScreen.storyboard in Resources */,
 				E52D672024E44A5500B6CDEA /* Assets.xcassets in Resources */,
+				E5998179264E5733001447F7 /* Screenshot01.png in Resources */,
+				E599817A264E5733001447F7 /* Screenshot02.png in Resources */,
 				E52D671E24E44A5400B6CDEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
