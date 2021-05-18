@@ -67,18 +67,58 @@
 			isa = PBXGroup;
 			children = (
 				E5998176264E5608001447F7 /* Screenshots */,
-				E52D671624E44A5400B6CDEA /* AppDelegate.swift */,
-				E52D671824E44A5400B6CDEA /* SceneDelegate.swift */,
-				E52D671C24E44A5400B6CDEA /* Main.storyboard */,
-				E5DE199D24E72F6000DC1BF6 /* PhotoViewController.swift */,
-				E52D672A24E44B0300B6CDEA /* PhotosCollectionViewController.swift */,
-				E5DE199B24E71A1B00DC1BF6 /* PhotoCell.swift */,
-				E52D671F24E44A5500B6CDEA /* Assets.xcassets */,
-				E52D672124E44A5500B6CDEA /* LaunchScreen.storyboard */,
-				E52D672424E44A5500B6CDEA /* Info.plist */,
+				E580231C26544C15007339D9 /* Storyboards */,
+				E580231D26544C21007339D9 /* View Controllers */,
+				E580231F26544C2C007339D9 /* View */,
+				E580232226544C32007339D9 /* Source */,
+				E580231A26544BFD007339D9 /* Supporting files */,
 				E599817C264E5840001447F7 /* README.md */,
 			);
 			path = PhotoTapps;
+			sourceTree = "<group>";
+		};
+		E580231A26544BFD007339D9 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E52D671624E44A5400B6CDEA /* AppDelegate.swift */,
+				E52D671824E44A5400B6CDEA /* SceneDelegate.swift */,
+				E52D672424E44A5500B6CDEA /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E580231C26544C15007339D9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E52D671C24E44A5400B6CDEA /* Main.storyboard */,
+				E52D672124E44A5500B6CDEA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E580231D26544C21007339D9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE199D24E72F6000DC1BF6 /* PhotoViewController.swift */,
+				E52D672A24E44B0300B6CDEA /* PhotosCollectionViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E580231F26544C2C007339D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE199B24E71A1B00DC1BF6 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E580232226544C32007339D9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E52D671F24E44A5500B6CDEA /* Assets.xcassets */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		E5998176264E5608001447F7 /* Screenshots */ = {
@@ -316,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = PhotoTapps/Info.plist;
+				INFOPLIST_FILE = "PhotoTapps/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = PhotoTapps/Info.plist;
+				INFOPLIST_FILE = "PhotoTapps/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
