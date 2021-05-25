@@ -1,6 +1,6 @@
 # PhotoTapps
 
-Gallery app for testing CollectionView.
+Gallery app for practice  CollectionView.
 
 # Installation
 
